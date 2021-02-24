@@ -12,6 +12,7 @@ function route(app) {
     app.get('/docs', swagger_ui_express_1.default.setup(shortener_1.default, options));
     app.get('/:short_url', ShortenerController_1.default.get);
     app.post('/encurtador', ShortenerController_1.default.add);
+    console.log('entrei1');
 }
 exports.default = route;
 ;
