@@ -15,11 +15,20 @@
   npm install
   ```
 
-## EXECUTAR O PROJETO
-  O comando abaixo irá executar a API:
+## EXECUTAR O PROJETO (DEV / TRANSPILER)
+  Após a instalação, é necessário rodar a comando abaixo para transpilar e executar a API pela primeira vez:
+  ```bash
+  npm run start:dev
+  ```
+
+  Após a transpilação, comando abaixo poderá executar os proximos comandos.
+
+## EXECUTAR O PROJETO (PRODUCTION)
+  Para execução em produção (e apos os passos anteriores), pode-se usar o comando abaixo:
   ```bash
   npm start
   ```
+
   Após a execução, navegue até: http://localhost:8081/
  
 ## TEST
