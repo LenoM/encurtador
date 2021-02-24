@@ -21,15 +21,15 @@
   npm run start:dev
   ```
 
-  Após a transpilação, comando abaixo poderá executar os proximos comandos.
+  Após a transpilação poderáo ser executados os proximos comandos.
 
 ## EXECUTAR O PROJETO (PRODUCTION)
-  Para execução em produção (e apos os passos anteriores), pode-se usar o comando abaixo:
+  Para execução em produção (e após os passos anteriores), pode-se usar o comando abaixo:
   ```bash
   npm start
   ```
 
-  Após a execução, navegue até: http://localhost:8081/
+  Após a execução navegue até: http://localhost:8081/
  
 ## TEST
   Para testar o projeto, basta executar o comando:
