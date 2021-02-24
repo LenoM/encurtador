@@ -1,5 +1,5 @@
 import validator from 'validator';
-import { getRepository, LessThan } from 'typeorm';
+import { getRepository, MoreThanOrEqual } from 'typeorm';
 import ShortenerUrl from '../models/entities/ShortenerUrl';
 
 class ShortenerService {
@@ -9,10 +9,10 @@ class ShortenerService {
     if (shortUrls) {
       const shortner = await repository.findOne({
         shortUrl: shortUrls,
-        expirationDate: LessThan(new Date()),
+        expirationDate: MoreThanOrEqual(new Date()),
       });
 
-      if (shortner.url !== undefined) {
+      if (shortner) {
         return { body: shortner.url };
       }
       return { error: 'URL não foi encontrada.' };
