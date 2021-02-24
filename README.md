@@ -16,20 +16,20 @@
   ```
 
 ## EXECUTAR O PROJETO (DEV / TRANSPILER)
-  Após a instalação, é necessário rodar a comando abaixo para transpilar e executar a API pela primeira vez:
+  Após a instalação é necessário rodar a comando abaixo para transpilar e executar a API pela primeira vez:
   ```bash
   npm run start:dev
   ```
 
-  Após a transpilação, comando abaixo poderá executar os proximos comandos.
+  Após a transpilação poderão ser executados os próximos comandos.
 
 ## EXECUTAR O PROJETO (PRODUCTION)
-  Para execução em produção (e apos os passos anteriores), pode-se usar o comando abaixo:
+  Para a execução em produção (e após os passos anteriores), pode-se usar o comando abaixo:
   ```bash
   npm start
   ```
 
-  Após a execução, navegue até: http://localhost:8081/
+  Após a execução navegue até: http://localhost:8081/
  
 ## TEST
   Para testar o projeto, basta executar o comando:
@@ -38,7 +38,7 @@
   ```
 
 ## DOCKER
-  Para criar a imagem Dockernizada foi utilizado o comando:
+  Para criar a imagem Docker foi utilizado o comando:
   ```bash
   docker build -t lenomotac/encurtador .
   ```
